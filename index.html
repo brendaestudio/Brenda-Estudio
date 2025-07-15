@@ -6,106 +6,141 @@
   <title>Brenda Estudio</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
       margin: 0;
-      padding: 0;
-      background-color: #fff0f5;
-    }
-    header {
-      background-color: #ec407a;
+      font-family: 'Arial', sans-serif;
       color: white;
-      padding: 20px;
-      text-align: center;
+      background-image: url('fondo1.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
     }
+
+    header {
+      text-align: center;
+      padding: 100px 20px 60px;
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    header h1 {
+      font-size: 4em;
+      margin: 0;
+      color: #ff90d0;
+    }
+
+    header p {
+      font-size: 1.5em;
+      color: #fff;
+      margin-top: 10px;
+    }
+
     nav {
-      background-color: #f8bbd0;
-      text-align: center;
-      padding: 10px 0;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.7);
+      position: sticky;
+      top: 0;
+      z-index: 10;
     }
+
     nav a {
-      margin: 0 15px;
+      color: #fff;
       text-decoration: none;
-      color: #880e4f;
+      font-weight: bold;
+      font-size: 1.2em;
+    }
+
+    section {
+      padding: 60px 20px;
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 2.5em;
+      margin-bottom: 30px;
+    }
+
+    .horario, .planes {
+      max-width: 800px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .horario img, .planes img {
+      width: 100%;
+      border-radius: 12px;
+    }
+
+    .btn-reservar {
+      margin-top: 20px;
+      display: inline-block;
+      background-color: #ff90d0;
+      color: white;
+      padding: 12px 25px;
+      text-decoration: none;
+      border-radius: 25px;
       font-weight: bold;
     }
-    section {
-      padding: 20px;
-    }
-    .button {
-      background-color: #ec407a;
-      color: white;
-      padding: 8px 12px;
-      border: none;
-      border-radius: 5px;
-      text-decoration: none;
-    }
+
     footer {
-      background-color: #ec407a;
-      color: white;
       text-align: center;
-      padding: 10px;
-      position: relative;
-      bottom: 0;
-      width: 100%;
+      padding: 30px;
+      background-color: rgba(0, 0, 0, 0.8);
+      color: white;
     }
   </style>
 </head>
 <body>
+
   <header>
     <h1>Brenda Estudio</h1>
-    <p>Rumba Fire, Entrenamiento, Alegría</p>
+    <p>¡EL LUGAR MÁS FELIZ DEL MUNDO!</p>
   </header>
 
   <nav>
     <a href="#horarios">Horarios</a>
     <a href="#planes">Planes</a>
-    <a href="https://wa.me/573115933686" target="_blank">Comprar</a>
+    <a href="#quienes">Quiénes Somos</a>
+    <a href="#contacto">Contáctanos</a>
   </nav>
 
   <section id="horarios">
-    <h2>Horarios de Clases</h2>
-    <table border="1" cellpadding="10" style="width: 100%; border-collapse: collapse; text-align: center;">
-      <tr style="background-color: #f8bbd0;">
-        <th>Día</th>
-        <th>Hora</th>
-        <th>Clase</th>
-        <th>Profe</th>
-        <th>Agendar</th>
-      </tr>
-      <!-- Filas de clases -->
-      <tr><td>Lunes</td><td>6:00 AM</td><td>Rumba Fire</td><td>Brenda</td><td><a class="button" href="https://wa.me/573115933686?text=Hola%20quiero%20agendar%20la%20clase%20de%20Rumba%20Fire%20el%20Lunes%20a%20las%206:00%20AM" target="_blank">Agendar</a></td></tr>
-      <tr><td>Lunes</td><td>7:00 AM</td><td>Entrena y Tonifica</td><td>Brenda</td><td><a class="button" href="https://wa.me/573115933686?text=Hola%20quiero%20agendar%20la%20clase%20de%20Entrena%20y%20Tonifica%20el%20Lunes%20a%20las%207:00%20AM" target="_blank">Agendar</a></td></tr>
-      <tr><td>Lunes</td><td>6:00 PM</td><td>Entrena y Tonifica</td><td>Brenda</td><td><a class="button" href="https://wa.me/573115933686?text=Hola%20quiero%20agendar%20la%20clase%20de%20Entrena%20y%20Tonifica%20el%20Lunes%20a%20las%206:00%20PM" target="_blank">Agendar</a></td></tr>
-      <tr><td>Lunes</td><td>7:00 PM</td><td>Rumba Fire</td><td>Brenda</td><td><a class="button" href="https://wa.me/573115933686?text=Hola%20quiero%20agendar%20la%20clase%20de%20Rumba%20Fire%20el%20Lunes%20a%20las%207:00%20PM" target="_blank">Agendar</a></td></tr>
-      <tr><td>Martes</td><td>6:00 AM</td><td>Rumba Fire</td><td>Brenda</td><td><a class="button" href="https://wa.me/573115933686?text=Hola%20quiero%20agendar%20la%20clase%20de%20Rumba%20Fire%20el%20Martes%20a%20las%206:00%20AM" target="_blank">Agendar</a></td></tr>
-      <tr><td>Martes</td><td>7:00 AM</td><td>Gap</td><td>Brenda</td><td><a class="button" href="https://wa.me/573115933686?text=Hola%20quiero%20agendar%20la%20clase%20de%20Gap%20el%20Martes%20a%20las%207:00%20AM" target="_blank">Agendar</a></td></tr>
-      <tr><td>Martes</td><td>6:00 PM</td><td>Gap</td><td>Brenda</td><td><a class="button" href="https://wa.me/573115933686?text=Hola%20quiero%20agendar%20la%20clase%20de%20Gap%20el%20Martes%20a%20las%206:00%20PM" target="_blank">Agendar</a></td></tr>
-      <tr><td>Martes</td><td>7:00 PM</td><td>Rumba Fire</td><td>Brenda</td><td><a class="button" href="https://wa.me/573115933686?text=Hola%20quiero%20agendar%20la%20clase%20de%20Rumba%20Fire%20el%20Martes%20a%20las%207:00%20PM" target="_blank">Agendar</a></td></tr>
-      <tr><td>Miércoles</td><td>6:00 AM</td><td>Rumba Fire</td><td>Brenda</td><td><a class="button" href="https://wa.me/573115933686?text=Hola%20quiero%20agendar%20la%20clase%20de%20Rumba%20Fire%20el%20Miércoles%20a%20las%206:00%20AM" target="_blank">Agendar</a></td></tr>
-      <tr><td>Miércoles</td><td>7:00 AM</td><td>Entrena y Tonifica</td><td>Brenda</td><td><a class="button" href="https://wa.me/573115933686?text=Hola%20quiero%20agendar%20la%20clase%20de%20Entrena%20y%20Tonifica%20el%20Miércoles%20a%20las%207:00%20AM" target="_blank">Agendar</a></td></tr>
-      <tr><td>Miércoles</td><td>6:00 PM</td><td>Entrena y Tonifica</td><td>Brenda</td><td><a class="button" href="https://wa.me/573115933686?text=Hola%20quiero%20agendar%20la%20clase%20de%20Entrena%20y%20Tonifica%20el%20Miércoles%20a%20las%206:00%20PM" target="_blank">Agendar</a></td></tr>
-      <tr><td>Miércoles</td><td>7:00 PM</td><td>Rumba Fire</td><td>Brenda</td><td><a class="button" href="https://wa.me/573115933686?text=Hola%20quiero%20agendar%20la%20clase%20de%20Rumba%20Fire%20el%20Miércoles%20a%20las%207:00%20PM" target="_blank">Agendar</a></td></tr>
-      <tr><td>Jueves</td><td>6:00 AM</td><td>Rumba Fire</td><td>Brenda</td><td><a class="button" href="https://wa.me/573115933686?text=Hola%20quiero%20agendar%20la%20clase%20de%20Rumba%20Fire%20el%20Jueves%20a%20las%206:00%20AM" target="_blank">Agendar</a></td></tr>
-      <tr><td>Jueves</td><td>7:00 AM</td><td>Gap</td><td>Brenda</td><td><a class="button" href="https://wa.me/573115933686?text=Hola%20quiero%20agendar%20la%20clase%20de%20Gap%20el%20Jueves%20a%20las%207:00%20AM" target="_blank">Agendar</a></td></tr>
-      <tr><td>Jueves</td><td>6:00 PM</td><td>Gap</td><td>Brenda</td><td><a class="button" href="https://wa.me/573115933686?text=Hola%20quiero%20agendar%20la%20clase%20de%20Gap%20el%20Jueves%20a%20las%206:00%20PM" target="_blank">Agendar</a></td></tr>
-      <tr><td>Jueves</td><td>7:00 PM</td><td>Rumba Fire</td><td>Brenda</td><td><a class="button" href="https://wa.me/573115933686?text=Hola%20quiero%20agendar%20la%20clase%20de%20Rumba%20Fire%20el%20Jueves%20a%20las%207:00%20PM" target="_blank">Agendar</a></td></tr>
-      <tr><td>Viernes</td><td>6:00 AM</td><td>Rumba Fire</td><td>Brenda</td><td><a class="button" href="https://wa.me/573115933686?text=Hola%20quiero%20agendar%20la%20clase%20de%20Rumba%20Fire%20el%20Viernes%20a%20las%206:00%20AM" target="_blank">Agendar</a></td></tr>
-      <tr><td>Viernes</td><td>7:00 AM</td><td>Entrena y Tonifica</td><td>Brenda</td><td><a class="button" href="https://wa.me/573115933686?text=Hola%20quiero%20agendar%20la%20clase%20de%20Entrena%20y%20Tonifica%20el%20Viernes%20a%20las%207:00%20AM" target="_blank">Agendar</a></td></tr>
-      <tr><td>Viernes</td><td>6:00 PM</td><td>Entrena y Tonifica</td><td>Brenda</td><td><a class="button" href="https://wa.me/573115933686?text=Hola%20quiero%20agendar%20la%20clase%20de%20Entrena%20y%20Tonifica%20el%20Viernes%20a%20las%206:00%20PM" target="_blank">Agendar</a></td></tr>
-      <tr><td>Viernes</td><td>7:00 PM</td><td>Rumba Fire</td><td>Brenda</td><td><a class="button" href="https://wa.me/573115933686?text=Hola%20quiero%20agendar%20la%20clase%20de%20Rumba%20Fire%20el%20Viernes%20a%20las%207:00%20PM" target="_blank">Agendar</a></td></tr>
-      <tr><td>Sábado</td><td>7:00 AM</td><td>Rumba Fire</td><td>Brenda</td><td><a class="button" href="https://wa.me/573115933686?text=Hola%20quiero%20agendar%20la%20clase%20de%20Rumba%20Fire%20el%20Sábado%20a%20las%207:00%20AM" target="_blank">Agendar</a></td></tr>
-      <tr><td>Sábado</td><td>8:00 AM</td><td>Entrena y Tonifica</td><td>Brenda</td><td><a class="button" href="https://wa.me/573115933686?text=Hola%20quiero%20agendar%20la%20clase%20de%20Entrena%20y%20Tonifica%20el%20Sábado%20a%20las%208:00%20AM" target="_blank">Agendar</a></td></tr>
-    </table>
+    <h2>Horarios</h2>
+    <div class="horario">
+      <img src="image1.png" alt="Horario de clases">
+      <br>
+      <a class="btn-reservar" href="https://wa.me/573115933686?text=%C2%A1Quiero%20reservar%20cupo%20para..." target="_blank">Reservar esta clase</a>
+    </div>
   </section>
 
   <section id="planes">
-    <h2>Planes</h2>
-    <img src="planes.jpeg" alt="Planes" style="width: 100%; max-width: 600px; display: block; margin: 0 auto;">
+    <h2>Nuestros Planes</h2>
+    <div class="planes">
+      <img src="image2.jpeg" alt="Planes de clases">
+    </div>
+  </section>
+
+  <section id="quienes">
+    <h2>¿Quiénes Somos?</h2>
+    <p style="max-width: 800px; margin: auto; font-size: 1.2em;">
+      En Brenda Estudio creemos en el poder del baile para transformar vidas. Somos un espacio lleno de pasión, energía y alegría, donde cada clase es una experiencia. Nuestros instructores están comprometidos con que cada persona se sienta libre, feliz y llena de confianza.
+    </p>
+  </section>
+
+  <section id="contacto">
+    <h2>Contáctanos</h2>
+    <p style="text-align: center; font-size: 1.2em;">
+      WhatsApp: <a href="https://wa.me/573115933686" style="color: #fff; text-decoration: underline;">311 593 3686</a><br>
+      Instagram: <a href="https://instagram.com/brendaestudio" style="color: #fff; text-decoration: underline;">@brendaestudio</a><br>
+      TikTok: <a href="https://www.tiktok.com/@brenda.estudio" style="color: #fff; text-decoration: underline;">@brenda.estudio</a>
+    </p>
   </section>
 
   <footer>
-    <p>Contáctanos: <a href="https://wa.me/573115933686" target="_blank" style="color:white; text-decoration: underline;">WhatsApp 3115933686</a></p>
-    <p>Síguenos: IG @brendaestudio | TikTok @brenda.estudio</p>
+    &copy; 2025 Brenda Estudio. Todos los derechos reservados.
   </footer>
+
 </body>
 </html>
