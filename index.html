@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Brenda Estudio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: 'Montserrat', sans-serif;
+    }
+    body {
+      background: url('fondo.jpg') no-repeat center center/cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    nav {
+      position: absolute;
+      top: 20px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+    }
+    nav a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: 600;
+      font-size: 18px;
+      transition: color 0.3s;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    }
+    nav a:hover {
+      color: #e96eb8;
+    }
+    .logo-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .brenda {
+      font-family: 'Great Vibes', cursive;
+      font-size: 80px;
+      color: #fff;
+      margin: 0;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+    }
+    .estudio {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 32px;
+      color: #fff;
+      margin: -10px 0 10px 0;
+      letter-spacing: 2px;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+    }
+    .frase {
+      font-size: 20px;
+      color: #fff;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="horarios.html">Horarios</a>
+    <a href="#">Planes</a>
+    <a href="#">Contáctanos</a>
+    <a href="#">Quiénes somos</a>
+  </nav>
+  <div class="logo-container">
+    <h1 class="brenda">Brenda</h1>
+    <h2 class="estudio">ESTUDIO</h2>
+    <div class="frase">¡El lugar más feliz del mundo!</div>
+  </div>
+</body>
+</html>
