@@ -1,5 +1,110 @@
 <!DOCTYPE html>
 <html lang="es">
-<head><title>Test</title></head>
-<body><h1>¡Hola Brenda Estudio!</h1></body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brenda Estudio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #fff;
+      color: #333;
+    }
+    header {
+      background: #fce4ec;
+      text-align: center;
+      padding: 20px;
+    }
+    header img {
+      max-width: 300px;
+    }
+    nav {
+      background: #f8bbd0;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      color: #fff;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    section {
+      padding: 30px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #d81b60;
+    }
+    .image-section img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #d81b60;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      margin: 10px 0;
+    }
+    footer {
+      background: #fce4ec;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+    .socials a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #d81b60;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.jpeg" alt="Brenda Estudio" />
+  </header>
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#horarios">Horarios</a>
+    <a href="#planes">Planes</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section id="inicio">
+    <h2>Bienvenida a Brenda Estudio</h2>
+    <p>Un espacio para moverte con alegría, actitud y estilo. ¡Descubre nuestras clases de baile y elige el plan perfecto para ti!</p>
+  </section>
+
+  <section id="horarios" class="image-section">
+    <h2>Horario de Clases</h2>
+    <img src="horario.png" alt="Horario de clases" />
+  </section>
+
+  <section id="planes" class="image-section">
+    <h2>Planes y Precios</h2>
+    <img src="planes.jpeg" alt="Planes y precios" />
+    <br />
+    <a href="https://wa.me/573115933686" class="button" target="_blank">Solicitar plan por WhatsApp</a>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>¿Tienes dudas o quieres agendar una clase? Contáctanos por nuestras redes:</p>
+    <div class="socials">
+      <a href="https://instagram.com/brendaestudio" target="_blank">Instagram</a> |
+      <a href="https://tiktok.com/@brenda.estudio" target="_blank">TikTok</a> |
+      <a href="https://wa.me/573115933686" target="_blank">WhatsApp</a>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Brenda Estudio. Todos los derechos reservados.
+  </footer>
+</body>
 </html>
