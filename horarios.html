@@ -1,0 +1,324 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Horarios - Brenda Estudio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(135deg, #f7c4e5, #e7d5f9);
+      color: #333;
+    }
+    header {
+      text-align: center;
+      padding: 40px 20px 20px;
+    }
+    header img {
+      max-width: 250px;
+      height: auto;
+    }
+    h2 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 22px;
+      margin-top: 10px;
+      letter-spacing: 2px;
+    }
+    .horarios {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+    .day-column {
+      background: rgba(255, 255, 255, 0.7);
+      border-radius: 16px;
+      padding: 15px;
+      width: 220px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+    .day-column h3 {
+      text-align: center;
+      margin-top: 0;
+      color: #e96eb8;
+    }
+    .class-card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 10px;
+      margin-bottom: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      transition: transform 0.2s;
+    }
+    .class-card:hover {
+      transform: translateY(-5px);
+    }
+    .class-name {
+      color: #e96eb8;
+      font-weight: 600;
+      margin-bottom: 5px;
+    }
+    .class-time, .class-teacher {
+      font-size: 14px;
+      margin: 0;
+    }
+    .reserve-btn {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 6px 12px;
+      background-color: #e96eb8;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 14px;
+    }
+    .reserve-btn:hover {
+      background-color: #d24d98;
+    }
+  </style>
+</head>
+<body>
+<header>
+  <img src="logo_blanco.png" alt="Brenda Estudio Logo">
+  <h2>Horarios de clases</h2>
+</header>
+
+<section class="horarios">
+<div class="day-column">
+<h3>Lunes</h3>
+
+    <div class="class-card">
+      <div class="class-name">Salsa Básica</div>
+      <p class="class-time">6 pm</p>
+      <p class="class-teacher">Deisy</p>
+      <a class="reserve-btn" href="https://wa.me/573115933686?text=¡Hola!%20Quiero%20reservar%20la%20clase%20de%20Salsa%20Básica%20el%20Lunes%20a%20las%206%20pm." target="_blank">Reservar</a>
+    </div>
+
+    <div class="class-card">
+      <div class="class-name">Rumba</div>
+      <p class="class-time">7 pm</p>
+      <p class="class-teacher">Ronny</p>
+      <a class="reserve-btn" href="https://wa.me/573115933686?text=¡Hola!%20Quiero%20reservar%20la%20clase%20de%20Rumba%20el%20Lunes%20a%20las%207%20pm." target="_blank">Reservar</a>
+    </div>
+
+    <div class="class-card">
+      <div class="class-name">Reggaeton Intermedio</div>
+      <p class="class-time">7 pm</p>
+      <p class="class-teacher">Lil Fox</p>
+      <a class="reserve-btn" href="https://wa.me/573115933686?text=¡Hola!%20Quiero%20reservar%20la%20clase%20de%20Reggaeton%20Intermedio%20el%20Lunes%20a%20las%207%20pm." target="_blank">Reservar</a>
+    </div>
+
+    <div class="class-card">
+      <div class="class-name">Pole Dance</div>
+      <p class="class-time">7 pm</p>
+      <p class="class-teacher">Camila</p>
+      <a class="reserve-btn" href="https://wa.me/573115933686?text=¡Hola!%20Quiero%20reservar%20la%20clase%20de%20Pole%20Dance%20el%20Lunes%20a%20las%207%20pm." target="_blank">Reservar</a>
+    </div>
+
+    <div class="class-card">
+      <div class="class-name">Heels</div>
+      <p class="class-time">8 pm</p>
+      <p class="class-teacher">Pelu</p>
+      <a class="reserve-btn" href="https://wa.me/573115933686?text=¡Hola!%20Quiero%20reservar%20la%20clase%20de%20Heels%20el%20Lunes%20a%20las%208%20pm." target="_blank">Reservar</a>
+    </div>
+</div>
+<div class="day-column">
+<h3>Martes</h3>
+
+    <div class="class-card">
+      <div class="class-name">Bachata</div>
+      <p class="class-time">6 pm</p>
+      <p class="class-teacher">Edwar</p>
+      <a class="reserve-btn" href="https://wa.me/573115933686?text=¡Hola!%20Quiero%20reservar%20la%20clase%20de%20Bachata%20el%20Martes%20a%20las%206%20pm." target="_blank">Reservar</a>
+    </div>
+
+    <div class="class-card">
+      <div class="class-name">Twerk Básico</div>
+      <p class="class-time">6 pm</p>
+      <p class="class-teacher">Alessa</p>
+      <a class="reserve-btn" href="https://wa.me/573115933686?text=¡Hola!%20Quiero%20reservar%20la%20clase%20de%20Twerk%20Básico%20el%20Martes%20a%20las%206%20pm." target="_blank">Reservar</a>
+    </div>
+
+    <div class="class-card">
+      <div class="class-name">Rumba</div>
+      <p class="class-time">7 pm</p>
+      <p class="class-teacher">Ronny</p>
+      <a class="reserve-btn" href="https://wa.me/573115933686?text=¡Hola!%20Quiero%20reservar%20la%20clase%20de%20Rumba%20el%20Martes%20a%20las%207%20pm." target="_blank">Reservar</a>
+    </div>
+
+    <div class="class-card">
+      <div class="class-name">Reggaeton</div>
+      <p class="class-time">7 pm</p>
+      <p class="class-teacher">An</p>
+      <a class="reserve-btn" href="https://wa.me/573115933686?text=¡Hola!%20Quiero%20reservar%20la%20clase%20de%20Reggaeton%20el%20Martes%20a%20las%207%20pm." target="_blank">Reservar</a>
+    </div>
+
+    <div class="class-card">
+      <div class="class-name">Sexy Style</div>
+      <p class="class-time">8 pm</p>
+      <p class="class-teacher">Thomas</p>
+      <a class="reserve-btn" href="https://wa.me/573115933686?text=¡Hola!%20Quiero%20reservar%20la%20clase%20de%20Sexy%20Style%20el%20Martes%20a%20las%208%20pm." target="_blank">Reservar</a>
+    </div>
+</div>
+<div class="day-column">
+<h3>Miércoles</h3>
+
+    <div class="class-card">
+      <div class="class-name">Rumba Mañanera</div>
+      <p class="class-time">6 am</p>
+      <p class="class-teacher">Ronny</p>
+      <a class="reserve-btn" href="https://wa.me/573115933686?text=¡Hola!%20Quiero%20reservar%20la%20clase%20de%20Rumba%20Mañanera%20el%20Miércoles%20a%20las%206%20am." target="_blank">Reservar</a>
+    </div>
+
+    <div class="class-card">
+      <div class="class-name">Salsa Intermedia</div>
+      <p class="class-time">7 pm</p>
+      <p class="class-teacher">Deisy</p>
+      <a class="reserve-btn" href="https://wa.me/573115933686?text=¡Hola!%20Quiero%20reservar%20la%20clase%20de%20Salsa%20Intermedia%20el%20Miércoles%20a%20las%207%20pm." target="_blank">Reservar</a>
+    </div>
+
+    <div class="class-card">
+      <div class="class-name">Reggaeton</div>
+      <p class="class-time">7 pm</p>
+      <p class="class-teacher">Lil Fox</p>
+      <a class="reserve-btn" href="https://wa.me/573115933686?text=¡Hola!%20Quiero%20reservar%20la%20clase%20de%20Reggaeton%20el%20Miércoles%20a%20las%207%20pm." target="_blank">Reservar</a>
+    </div>
+
+    <div class="class-card">
+      <div class="class-name">Champeta</div>
+      <p class="class-time">8 pm</p>
+      <p class="class-teacher">Armando</p>
+      <a class="reserve-btn" href="https://wa.me/573115933686?text=¡Hola!%20Quiero%20reservar%20la%20clase%20de%20Champeta%20el%20Miércoles%20a%20las%208%20pm." target="_blank">Reservar</a>
+    </div>
+</div>
+<div class="day-column">
+<h3>Jueves</h3>
+
+    <div class="class-card">
+      <div class="class-name">Twerk Intermedio</div>
+      <p class="class-time">6 pm</p>
+      <p class="class-teacher">Barbie</p>
+      <a class="reserve-btn" href="https://wa.me/573115933686?text=¡Hola!%20Quiero%20reservar%20la%20clase%20de%20Twerk%20Intermedio%20el%20Jueves%20a%20las%206%20pm." target="_blank">Reservar</a>
+    </div>
+
+    <div class="class-card">
+      <div class="class-name">Rumba</div>
+      <p class="class-time">6 pm</p>
+      <p class="class-teacher">Elastic</p>
+      <a class="reserve-btn" href="https://wa.me/573115933686?text=¡Hola!%20Quiero%20reservar%20la%20clase%20de%20Rumba%20el%20Jueves%20a%20las%206%20pm." target="_blank">Reservar</a>
+    </div>
+
+    <div class="class-card">
+      <div class="class-name">Afro</div>
+      <p class="class-time">7 pm</p>
+      <p class="class-teacher">Jai</p>
+      <a class="reserve-btn" href="https://wa.me/573115933686?text=¡Hola!%20Quiero%20reservar%20la%20clase%20de%20Afro%20el%20Jueves%20a%20las%207%20pm." target="_blank">Reservar</a>
+    </div>
+
+    <div class="class-card">
+      <div class="class-name">Heels</div>
+      <p class="class-time">8 pm</p>
+      <p class="class-teacher">Maju</p>
+      <a class="reserve-btn" href="https://wa.me/573115933686?text=¡Hola!%20Quiero%20reservar%20la%20clase%20de%20Heels%20el%20Jueves%20a%20las%208%20pm." target="_blank">Reservar</a>
+    </div>
+</div>
+<div class="day-column">
+<h3>Viernes</h3>
+
+    <div class="class-card">
+      <div class="class-name">Rumba Mañanera</div>
+      <p class="class-time">6 am</p>
+      <p class="class-teacher">Ronny</p>
+      <a class="reserve-btn" href="https://wa.me/573115933686?text=¡Hola!%20Quiero%20reservar%20la%20clase%20de%20Rumba%20Mañanera%20el%20Viernes%20a%20las%206%20am." target="_blank">Reservar</a>
+    </div>
+
+    <div class="class-card">
+      <div class="class-name">Dancehall</div>
+      <p class="class-time">6 pm</p>
+      <p class="class-teacher">Lederson</p>
+      <a class="reserve-btn" href="https://wa.me/573115933686?text=¡Hola!%20Quiero%20reservar%20la%20clase%20de%20Dancehall%20el%20Viernes%20a%20las%206%20pm." target="_blank">Reservar</a>
+    </div>
+
+    <div class="class-card">
+      <div class="class-name">Rumba</div>
+      <p class="class-time">7 pm</p>
+      <p class="class-teacher">Ronny</p>
+      <a class="reserve-btn" href="https://wa.me/573115933686?text=¡Hola!%20Quiero%20reservar%20la%20clase%20de%20Rumba%20el%20Viernes%20a%20las%207%20pm." target="_blank">Reservar</a>
+    </div>
+
+    <div class="class-card">
+      <div class="class-name">Pole Dance</div>
+      <p class="class-time">7 pm</p>
+      <p class="class-teacher">Camila</p>
+      <a class="reserve-btn" href="https://wa.me/573115933686?text=¡Hola!%20Quiero%20reservar%20la%20clase%20de%20Pole%20Dance%20el%20Viernes%20a%20las%207%20pm." target="_blank">Reservar</a>
+    </div>
+
+    <div class="class-card">
+      <div class="class-name">Heels</div>
+      <p class="class-time">8 pm</p>
+      <p class="class-teacher">Pelu</p>
+      <a class="reserve-btn" href="https://wa.me/573115933686?text=¡Hola!%20Quiero%20reservar%20la%20clase%20de%20Heels%20el%20Viernes%20a%20las%208%20pm." target="_blank">Reservar</a>
+    </div>
+</div>
+<div class="day-column">
+<h3>Sábado</h3>
+
+    <div class="class-card">
+      <div class="class-name">Rumba Fire</div>
+      <p class="class-time">9 am</p>
+      <p class="class-teacher">Ronny</p>
+      <a class="reserve-btn" href="https://wa.me/573115933686?text=¡Hola!%20Quiero%20reservar%20la%20clase%20de%20Rumba%20Fire%20el%20Sábado%20a%20las%209%20am." target="_blank">Reservar</a>
+    </div>
+
+    <div class="class-card">
+      <div class="class-name">Salsa Básica</div>
+      <p class="class-time">10 am</p>
+      <p class="class-teacher">An</p>
+      <a class="reserve-btn" href="https://wa.me/573115933686?text=¡Hola!%20Quiero%20reservar%20la%20clase%20de%20Salsa%20Básica%20el%20Sábado%20a%20las%2010%20am." target="_blank">Reservar</a>
+    </div>
+
+    <div class="class-card">
+      <div class="class-name">KIDS</div>
+      <p class="class-time">10 am</p>
+      <p class="class-teacher">Valentina</p>
+      <a class="reserve-btn" href="https://wa.me/573115933686?text=¡Hola!%20Quiero%20reservar%20la%20clase%20de%20KIDS%20el%20Sábado%20a%20las%2010%20am." target="_blank">Reservar</a>
+    </div>
+
+    <div class="class-card">
+      <div class="class-name">Champeta</div>
+      <p class="class-time">10 am</p>
+      <p class="class-teacher">Armando</p>
+      <a class="reserve-btn" href="https://wa.me/573115933686?text=¡Hola!%20Quiero%20reservar%20la%20clase%20de%20Champeta%20el%20Sábado%20a%20las%2010%20am." target="_blank">Reservar</a>
+    </div>
+</div>
+<div class="day-column">
+<h3>Domingo</h3>
+
+    <div class="class-card">
+      <div class="class-name">Rumba</div>
+      <p class="class-time">9 am</p>
+      <p class="class-teacher">Elastic</p>
+      <a class="reserve-btn" href="https://wa.me/573115933686?text=¡Hola!%20Quiero%20reservar%20la%20clase%20de%20Rumba%20el%20Domingo%20a%20las%209%20am." target="_blank">Reservar</a>
+    </div>
+
+    <div class="class-card">
+      <div class="class-name">Twerk Básico</div>
+      <p class="class-time">10 am</p>
+      <p class="class-teacher">Alessa</p>
+      <a class="reserve-btn" href="https://wa.me/573115933686?text=¡Hola!%20Quiero%20reservar%20la%20clase%20de%20Twerk%20Básico%20el%20Domingo%20a%20las%2010%20am." target="_blank">Reservar</a>
+    </div>
+
+    <div class="class-card">
+      <div class="class-name">Reggaeton Básico</div>
+      <p class="class-time">11 am</p>
+      <p class="class-teacher">Thomas</p>
+      <a class="reserve-btn" href="https://wa.me/573115933686?text=¡Hola!%20Quiero%20reservar%20la%20clase%20de%20Reggaeton%20Básico%20el%20Domingo%20a%20las%2011%20am." target="_blank">Reservar</a>
+    </div>
+</div>
+
+</section>
+</body>
+</html>
