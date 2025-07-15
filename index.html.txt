@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Brenda Estudio</title>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+<style>
+body {
+margin: 0;
+font-family: 'Montserrat', sans-serif;
+background-color: #ffe6f0;
+color: #000;
+}
+
+header {
+background-color: #ff1493;
+padding: 20px;
+text-align: center;
+}
+
+header img {
+max-width: 200px;
+}
+
+nav {
+background-color: #fff;
+display: flex;
+justify-content: center;
+gap: 20px;
+padding: 10px 0;
+position: sticky;
+top: 0;
+z-index: 10;
+}
+
+nav a {
+text-decoration: none;
+color: #ff1493;
+font-weight: bold;
+}
+
+section {
+padding: 40px 20px;
+max-width: 1000px;
+margin: auto;
+}
+
+h2 {
+color: #ff1493;
+text-align: center;
+font-size: 2em;
+}
+
+.clase-lista, .horario, .planes, .galeria, .contacto {
+margin-top: 20px;
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 20px;
+}
+
+th, td {
+padding: 10px;
+border: 1px solid #ccc;
+text-align: center;
+}
+
+.boton {
+background-color: #ff1493;
+color: #fff;
+padding: 12px 24px;
+border: none;
+border-radius: 8px;
+font-size: 16px;
+text-decoration: none;
+display: inline-block;
+margin-top: 20px;
+}
+
+.galeria img {
+width: 100%;
+max-width: 300px;
+margin: 10px;
+border-radius: 10px;
+}
+
+footer {
+background-color: #ff1493;
+color: #fff;
+text-align: center;
+padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<header>
+<img src="LOGO_URL_AQUI" alt="Logo Brenda Estudio">
+</header>
+
+<nav>
+<a href="#clases">Clases</a>
+<a href="#horario">Horario</a>
+<a href="#planes">Planes</a>
+<a href="#galeria">Galería</a>
+<a href="#contacto">Contacto</a>
+</nav>
+
+<section id="clases">
+<h2>Nuestras Clases</h2>
+<div class="clase-lista">
+Salsa, Rumba, Champeta, Bachata, Twerk, Afro, Dancehall, Heels, Sexy Style, Reggaetón, Reggaetón Femme, Coreografía, Pole Dance, Kids, Clases Virtuales y Clases Personalizadas.
+</div>
+</section>
+
+<section id="horario">
+<h2>Horario de Clases</h2>
+<p><strong>Horario de atención:</strong> Lunes a Viernes de 4:00 p.m. a 10:00 p.m. <br>
+Sábados, Domingos y Festivos de 9:00 a.m. a 12:00 p.m.</p>
+
+<table class="horario">
+<thead>
+<tr>
+<th>Hora</th>
+<th>Lunes</th>
+<th>Martes</th>
+<th>Miércoles</th>
+<th>Jueves</th>
+<th>Viernes</th>
+<th>Sábado</th>
+<th>Domingo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>6 AM</td>
+<td></td><td></td><td>Rumba (Ronny)</td><td></td><td>Rumba (Ronny)</td><td></td><td></td>
+</tr>
+<tr>
+<td>9 AM</td>
+<td></td><td></td><td></td><td></td><td></td><td>Rumba (Ronny)</td><td>Rumba (E Music)</td>
+</tr>
+<tr>
+<td>10 AM</td>
+<td></td><td></td><td></td><td></td><td></td><td>Salsa (Pedro)<br>KIDS (Daner)</td><td>Twerk (Barbie)</td>
+</tr>
+<tr>
+<td>11 AM</td>
+<td></td><td></td><td></td><td></td><td></td><td>Champeta (Pedro)</td><td>Reggaetón (Thomas)</td>
+</tr>
+<tr>
+<td>5 PM</td>
+<td>Salsa Básico (Deisy)</td><td></td><td></td><td></td><td></td><td></td><td></td>
+</tr>
+<tr>
+<td>6 PM</td>
+<td>Rumba / Reggaetón (Lil Fox)</td>
+<td>Bachata (Pedro)<br>Twerk (Alessa)</td>
+<td>Rumba (Ronny)</td>
+<td>Twerk Intermedio (Barbie)<br>Rumba Cardio (E Music)</td>
+<td>Dancehall (Lederson)</td>
+<td></td><td></td>
+</tr>
+<tr>
+<td>7 PM</td>
+<td>Pole Dance (Camila)</td>
+<td>Rumba (Ronny)<br>Reggaetón (Ana)</td>
+<td>Salsa Intermedio (Deisy)<br>Reggaetón Femme (Thomas)</td>
+<td>Afro (Jaida)</td>
+<td>Rumba (Ronny)<br>Pole Dance Intermedio (Camila)</td>
+<td></td><td></td>
+</tr>
+<tr>
+<td>8 PM</td>
+<td>Heels (Pelu)</td>
+<td>Sexy Style (Thomas)</td>
+<td>Champeta</td>
+<td>Heels (Maju)</td>
+<td>Heels</td><td></td><td></td>
+</tr>
+</tbody>
+</table>
+</section>
+
+<section id="planes">
+<h2>Nuestros Planes</h2>
+<div class="planes">
+<h3>Planes por cantidad de clases</h3>
+<ul>
+<li>1 clase: $30.000</li>
+<li>2 clases: $58.000</li>
+<li>4 clases: $114.000</li>
+<li>6 clases: $165.000</li>
+<li>8 clases: $216.000</li>
+<li>10 clases: $260.000</li>
+<li>12 clases: $300.000</li>
+<li>14 clases: $343.000</li>
+<li>16 clases: $376.000</li>
+<li>20 clases: $440.000</li>
+<li>25 clases: $538.000</li>
+<li>30 clases: $595.000</li>
+</ul>
+
+<h3>Planes ilimitados</h3>
+<ul>
+<li>Mensual: $680.000</li>
+<li>Bimensual: $1’120.000</li>
+<li>Semestral: $2’900.000</li>
+<li>Anual: $4’800.000</li>
+</ul>
+
+<h3>Clases Personalizadas</h3>
+<ul>
+<li>1 clase: $95.000</li>
+<li>2 clases: $185.000</li>
+<li>4 clases: $360.000</li>
+</ul>
+
+<a href="https://wa.me/573115933686" class="boton">Reserva tu clase por WhatsApp</a>
+</div>
+</section>
+
+<section id="galeria">
+<h2>Galería</h2>
+<div class="galeria">
+<img src="FOTO_GLOBOS_URL" alt="Estudio decorado" />
+<!-- Puedes agregar más fotos aquí -->
+
